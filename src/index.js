@@ -6,7 +6,7 @@ import * as envfile from 'envfile';
 const program = new Command();
 
 program
-  .version('0.0.0')
+  .version('0.0.1')
   .description('Patch a .env file')
   .option('-s, --set <key-values...>', 'set env vars')
   .option('-u, --unset <keys...>', 'unset env vars')
