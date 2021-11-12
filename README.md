@@ -1,6 +1,6 @@
 # dotenvpatch
 
-Patch a .env file, adding/replacing env vars (with `--set`) and removing env vars (with `--unset`).
+Patch a .env file (provided in stdin), adding/replacing env vars (with `--set`) and removing env vars (with `--unset`).
 
 ```sh
 npm install --global dotenvpatch
