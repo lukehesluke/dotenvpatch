@@ -43,17 +43,17 @@ async function main() {
       : await readInputFromStdin();
 
   const envFile = envfile.parse(inputText);
-  for (const rawKeyValue of opts.set) {
+  for (const rawKeyValue of opts.set ?? []) {
     const keyValue = envfile.parse(rawKeyValue);
     for (const [key, value] of Object.entries(keyValue)) {
       envFile[key] = value;
     }
   }
-  for (const key of opts.unset) {
+  for (const key of opts.unset ?? []) {
     delete envFile[key];
   }
 
-  console.log(envfile.stringify(envFile));
+  process.stdout.write(envfile.stringify(envFile));
 }
 
 
