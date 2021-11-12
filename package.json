@@ -4,13 +4,18 @@
   "description": "CLI tool to patch .env files",
   "type": "module",
   "main": "src/index.js",
+  "homepage": "https://github.com/lukehesluke/dotenvpatch#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lukehesluke/dotenvpatch"
+  },
   "bin": {
     "dotenvpatch": "src/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Luke Winship",
+  "author": "Luke Winship <luke.winship@gmail.com> (lukehesluke.co)",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^16.11.7",
