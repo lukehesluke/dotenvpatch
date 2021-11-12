@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "noEmit": true,
+    "allowJs": true,
+    "checkJs": true,
+    "downlevelIteration": true
+  },
+  "include": [
+    "src/**/*.js"
+  ]
+}

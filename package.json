@@ -1,0 +1,23 @@
+{
+  "name": "dotenvpatch",
+  "version": "0.0.0",
+  "description": "CLI tool to patch .env files",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "dotenvpatch": "src/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luke Winship",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.11.7",
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "commander": "^8.3.0",
+    "envfile": "^6.17.0"
+  }
+}
