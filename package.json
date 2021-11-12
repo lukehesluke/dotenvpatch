@@ -1,6 +1,6 @@
 {
   "name": "dotenvpatch",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "CLI tool to patch .env files",
   "type": "module",
   "main": "src/index.js",
